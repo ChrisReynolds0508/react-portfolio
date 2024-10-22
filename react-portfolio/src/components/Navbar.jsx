@@ -1,12 +1,16 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
-import {getImageUrl} from "../utils/getImageUrl";
+// import {getImageUrl} from "../utils/getImageUrl";
 
 export const Navbar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return <nav className={styles.navbar}>
         <a className={styles.title} href = '/'>Portfolio</a>
         <div className={styles.menu}>
-            <ul className={styles.menuItems}>
+            {/* <img className={styles.menuBtn} src={menuOpen ? getImageUrl('nav/closeIcon.png') : getImageUrl('nav/menuIcon.png')} alt='menu' 
+            onClick={() => setMenuOpen(!menuOpen)}/> */}
+            
+            <ul className= {styles.menuItems}>
                 <li>
                     <a href='#about'>About</a>
                 </li>
