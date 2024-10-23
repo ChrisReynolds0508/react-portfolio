@@ -1,13 +1,20 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import { FaGithub } from "react-icons/fa";
+import photo from "../../../assets/projects/recipesavour.png";
+import photo2 from "../../../assets/projects/taskboard.png";
+import photo3 from "../../../assets/projects/weather.png";
+import photo4 from "../../../assets/projects/jate.png";
+import photo5 from "../../../assets/projects/payroll.png";
+import photo6 from "../../../assets/projects/epicescapes.png";
+
 
 export const Projects = () => {
     return (
         <section className={styles.container} id="projects">
             <h1 className={styles.title}>Projects</h1>
             <div className={styles.project}>
-                <img src="./assets/projects/recipesavour.png" alt="project" className={styles.projectImg} />
+                <img src={photo} alt="project" className={styles.projectImg} />
                 <div className={styles.projectInfo}>
                     <h2>Recipe Savour</h2>
                     <ul>
@@ -26,7 +33,7 @@ export const Projects = () => {
             </div>
             <br />
             <div className={styles.project}>
-                <img src="./assets/projects/taskboard.png" alt="project" className={styles.projectImg2} />
+                <img src={photo2} alt="project" className={styles.projectImg2} />
                 <div className={styles.projectInfo}>
                     <h2>Task Board</h2>
                     <ul>
@@ -45,7 +52,7 @@ export const Projects = () => {
             </div>
             <br />
             <div className={styles.project}>
-                <img src="./assets/projects/weather.png" alt="project" className={styles.projectImg} />
+                <img src={photo3} alt="project" className={styles.projectImg} />
                 <div className={styles.projectInfo}>
                     <h2>Weather App</h2>
                     <ul>
@@ -65,7 +72,7 @@ export const Projects = () => {
             </div>
             <br />
             <div className={styles.project}>
-                <img src="./assets/projects/jate.png" alt="project" className={styles.projectImg4} />
+                <img src={photo4}alt="project" className={styles.projectImg4} />
                 <div className={styles.projectInfo}>
                     <h2>JATE Code editor</h2>
                     <ul>
@@ -84,7 +91,7 @@ export const Projects = () => {
             </div>
             <br />
             <div className={styles.project}>
-                <img src="./assets/projects/payroll.png" alt="project" className={styles.projectImg5} />
+                <img src={photo5} alt="project" className={styles.projectImg5} />
                 <div className={styles.projectInfo}>
                     <h2>Employee Payroll Tracker</h2>
                     <ul>
@@ -103,7 +110,7 @@ export const Projects = () => {
             </div>
             <br />
             <div className={styles.project}>
-                <img src="./assets/projects/epicescapes.png" alt="project" className={styles.projectImg6} />
+                <img src={photo6} alt="project" className={styles.projectImg6} />
                 <div className={styles.projectInfo}>
                     <h2>Epic Escapes</h2>
                     <ul>
