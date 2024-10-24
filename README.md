@@ -11,7 +11,9 @@ N/A
 All the user needs to do is click on the deployed webpage below in order to explore my portfolio 
 
 ## Deployment
-This React portfolio is deployed using Netlify 
+This React portfolio is deployed using Netlify:
+
+https://precious-blini-f7fd3a.netlify.app/ 
 
 ## Screenshot
 ![Screenshot of deployed portfolio](./react-portfolio/assets/projects/portfolio.png)
